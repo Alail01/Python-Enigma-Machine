@@ -9,6 +9,7 @@
 
 ## Rotors: 
   In the one that was used in World War 2, there was five different rotors. Each one was different from the last, and each one can be used in what ever order. Three are used with the machine, and are set into position. The rotor can be placed in the machine starting with any letter on top. Each time a letter is passed between the rotors, the rotors shift one letter. Starting with the first positition rotor, it shifts each time the leter is passed through a rotor. The second rotor only shifts once after the first rotor has completed a full rotation, and the third only shifts once after the second makes a full rotation. So it would take 676 letters for the third rotor to move once, and 17576 letters for all three rotors to make a full rotation.
+  
   Below is the reference that I used for the rotors: 
   Found on [Wiki](https://en.wikipedia.org/wiki/Enigma_rotor_details) (Yes I know Wikipedia...)
 ```
