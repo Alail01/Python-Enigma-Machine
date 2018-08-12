@@ -9,15 +9,15 @@ Basics on how it works:
 
 Rotors: 
   In the one that was used in World War 2, there was five different rotors. Each one was different from the last, and each one can be used in what ever order. Three are used with the machine, and are set into position. The rotor can be placed in the machine starting with any letter on top. Each time a letter is passed between the rotors, the rotors shift one letter. Starting with the first positition rotor, it shifts each time the leter is passed through a rotor. The second rotor only shifts once after the first rotor has completed a full rotation, and the third only shifts once after the second makes a full rotation. So it would take 676 letters for the third rotor to move once, and 17576 letters for all three rotors to make a full rotation.
-  Below is the reference that I used for the rotors: Found on https://en.wikipedia.org/wiki/Enigma_rotor_details (Yes I know Wikipedia...)
-  
-Rotor #	 \t ABCDEFGHIJKLMNOPQRSTUVWXYZ	  Date Introduced	   Model Name & Number
+  Below is the reference that I used for the rotors: Found on [Wiki](https://en.wikipedia.org/wiki/Enigma_rotor_details) (Yes I know Wikipedia...)
+'''
+Rotor #	  ABCDEFGHIJKLMNOPQRSTUVWXYZ	  Date Introduced	   Model Name & Number
 I	        JGDQOXUSCAMIFRVTPNEWKBLZYH	  7 February 1941	   German Railway (Rocket)
 II	      NTZPSFBOKMWRCJDIVLAEYUXHGQ	  7 February 1941	   German Railway (Rocket)
 III	      JVIUBHTCDYAKEQZPOSGXNRMWFL	  7 February 1941  	 German Railway (Rocket)
 UKW	      QYHOGNECVPUZTFDJAXWMKISRBL	  7 February 1941	   German Railway (Rocket)
 ETW	      QWERTZUIOASDFGHJKPYXCVBNML	  7 February 1941	   German Railway (Rocket)
-
+'''
 
 Plug Board: 
   The plug board is what made this machine insane to break. Each letter is on the plug board, and there are ten wires that can be used. Each wire is connected from one letter to another. This would make the machine change the letter you used. So if a wire was from 'A' to 'G', each time the 'A' key was pressed, a 'G' would go through the rotors. Similarly, each time a 'G' was returned from the rotors, the 'A' light would come up. If there was no wire attached to the letter you pressed, or that got returned from the rotors, then that letter would be the same that was pressed, or returned. 
