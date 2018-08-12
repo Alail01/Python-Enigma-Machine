@@ -52,5 +52,8 @@ Running the main file will (EVENTUALLY) start the enigma machine allowing for in
 ### Insperation: 
 [Code Bullet](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) 
 Made a youtube video making one, and I was interested in making one my own. Really cool channel for AI.
+### Hat tip:
+[Purple Booth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+Template for the Readme, theirs helped make this look as good as it does.
 
 
