@@ -24,7 +24,7 @@ ETW       QWERTZUIOASDFGHJKPYXCVBNML	  7 February 1941	   German Railway (Rocket
   The plug board is what made this machine insane to break. Each letter is on the plug board, and there are ten wires that can be used. Each wire is connected from one letter to another. This would make the machine change the letter you used. So if a wire was from 'A' to 'G', each time the 'A' key was pressed, a 'G' would go through the rotors. Similarly, each time a 'G' was returned from the rotors, the 'A' light would come up. If there was no wire attached to the letter you pressed, or that got returned from the rotors, then that letter would be the same that was pressed, or returned. 
 ## Acknowledgments:
 ### Insperation: 
-[Code Bullet] (https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) 
+[Code Bullet](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) 
 Made a youtube video making one, and I was interested in making one my own. Really cool channel for AI.
 
 
