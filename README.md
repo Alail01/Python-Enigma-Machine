@@ -39,6 +39,7 @@ Each file can be ran with ```python *NameOfFile.py*``` to test each file of code
 
 ## Running the Code: 
 **NOT COMPLETELY WORKING YET**
+
 Running the main file will (EVENTUALLY) start the enigma machine allowing for inputs and output. 
 
 ## Version:
