@@ -177,7 +177,7 @@ def makeRotor(rotor,startval = 0):
 
 '''
 Function: rotors()
-    Purpose: To have a rudamentary ability to have the user chose a rotor (given that they must know what they look like before runtime) and a start position.
+    Purpose: To have a rudimentary ability to have the user chose a rotor (given that they must know what they look like before runtime) and a start position.
 '''
 def rotors():
     limiter = 1
