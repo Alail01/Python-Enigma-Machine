@@ -1,6 +1,7 @@
 from graphics import *
 import time
 
+## a failed attempt at drawing a graphic....
 def drawings():
   win = GraphWin("ENIGMA MACHINE",1000,800)
   win.setCoords(0,0,10,10)

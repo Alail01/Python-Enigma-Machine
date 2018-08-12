@@ -102,8 +102,28 @@ class Rotor:
         print(self.List)
 
 
+'''
+Class: RotorBlock
 
+    Purpose: To make the three rotors into a single object that can be used.
 
+    Function: init (r,r1,r2)
+        Purpose: To initialize the rotor block for use.
+        Input:      Rotor       r           Rotor that will be considered in the first position.
+        Input:      Rotor       r1          Rotor that will be considered in the second position.
+        Input:      Rotor       r1          Rotor that will be considered in the third position.
+
+    Function: rotate()
+        Purpose: To rotate the block in the correct way. The first rotor will complete a full rotation before the second rotor will rotate.
+
+    Funtion: printblock()
+        Purpose: To print the block of rotors list to the command line.
+
+    Function: inputs(inp)
+        Purpose: This is the main body of the class. This function allows for the actual input to go through the rotors as discribed in the readme.
+        Input:      Char        inp         The character that you wish to input into the rotors.
+        Returns:    Char                    The character that will return after going through all the rotors.
+'''
 class RotorBlock:
     def __init__(self,r = Rotor(rotorList[0]),r1 = Rotor(rotorList[1]),r2 = Rotor(rotorList[2])):
         self.a = r
@@ -129,7 +149,7 @@ class RotorBlock:
         self.c.printself()
 
     def inputs(self,inp):
-        z = self.a.changeChartoInt("A")
+        z = self.a.changeChartoInt(inp)
         self.rotate()
         z = self.b.changeInttoInt(z ,self.a.getRot())
         self.rotate()
@@ -143,11 +163,22 @@ class RotorBlock:
         return outp
 
 
+'''
+Function: makeRotor(rotor, startval)
+    Purpose: This allows for the rotor to be made and started at the correct position.
+    Input:      list        rotor           The Rotor list to be used.
+    Input:      Int         startval        The starting position that the rotor will start in. Defaulted to 0.
+'''
 def makeRotor(rotor,startval = 0):
     rotor = Rotor(rotor,startval)
     rotor.start()
     return rotor
 
+
+'''
+Function: rotors()
+    Purpose: To have a rudamentary ability to have the user chose a rotor (given that they must know what they look like before runtime) and a start position.
+'''
 def rotors():
     limiter = 1
     rotor = []
