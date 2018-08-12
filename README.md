@@ -33,7 +33,7 @@ Running the main file will start the enigma machine allowing for inputs and outp
 1.0
 
 ## Author / Contributors:
-**Tim Noah** - *Initil code* 
+**Tim Noah** - *Initial code* 
 
 ## Acknowledgments:
 ### Insperation: 
